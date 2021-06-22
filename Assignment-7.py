@@ -61,7 +61,7 @@ def hyper_gen(y):
 
 #Affine Parameters
 c = -Vinv@u
-R =  np.array(([3,0],[0,4]))
+R =  np.array(([4,0],[0,3]))
 ParamMatrix = np.array(([a,0],[0,b]))
 
 
