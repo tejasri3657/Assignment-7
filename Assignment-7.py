@@ -71,8 +71,8 @@ xStandardHyperLeft = np.vstack((-x,y))
 xStandardHyperRight = np.vstack((x,y))
 
 #Plotting points
-A = np.array([3,0])
-B = np.array([-3,0])
+A = np.array([4,0])
+B = np.array([-4,0])
 f = np.array([5,0])
 M = np.array([5,5.3])
 N = np.array([5,-5.3])
