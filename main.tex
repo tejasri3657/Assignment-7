@@ -146,7 +146,13 @@ the eccentricity,the length of the latus
 rectum of the hyperbola $\vec{x}^{\top}\myvec{\frac{1}{9} & 0 \\ 0 & \frac{-1}{16}}\vec{x} = 1$.
 %
 \section{Solution}
-Given equation of the hyperbola,
+\begin{lemma}
+The standard form of a conic is given by
+\begin{align}
+\frac{\vec{y}^{\top}D\vec{y}}{\vec{u}^{\top}\vec{V}^{-1}\vec{u}-f}&=1
+\end{align}
+\end{lemma}
+Given
 \begin{align}
 \vec{x}^{\top}\myvec{\frac{1}{9} & 0 \\ 0 &\frac{-1}{16} }\vec{x}=1  
 \end{align}
@@ -162,11 +168,11 @@ we have,
 \end{align}
 Axes of hyperbola is given by
 \begin{align}
-    \sqrt{\frac{\vec{u}^{\top}\vec{V}^{-1}\vec{u}-f}{\lambda_1}} = 3\\ \sqrt{\frac{f-\vec{u}^{\top}\vec{V}^{-1}\vec{u}}{\lambda_2}} = 4
+    \sqrt{\frac{\vec{u}^{\top}\vec{V}^{-1}\vec{u}-f}{\lambda_1}} = 4\\ \sqrt{\frac{f-\vec{u}^{\top}\vec{V}^{-1}\vec{u}}{\lambda_2}} = 3
 \end{align}
 The vertices are given as
 \begin{align}
-    \pm\myvec{3 \\ 0} \text{and} \pm\myvec{0 \\ 4}
+    \pm\myvec{4 \\ 0}
 \end{align}
 Coordinates of foci are given by,
 \begin{align}
@@ -198,7 +204,7 @@ Plot of the hyperbola:
 \begin{figure}[H]
     \centering
     \includegraphics[width=\columnwidth]{hyperbola.png}
-    \caption{Hyperbola $\frac{x^2}{9} + \frac{y^2}{16} = 1$}
+    \caption{Hyperbola}
     \label{fig:hyperbola}
 \end{figure}  
 \end{document}
